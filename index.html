@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+  </head>
+  <body>
+    <h1>Checkout</h1>
+    <section>
+      <h2>Your Cart</h2>
+      <img
+        src="https://m.media-amazon.com/images/I/51zkl6Vpn2L._SL1000_.jpg"
+        alt="God Does Like Ugly pixellated album cover & translucent tan vinyl"
+      />
+    </section>
+    <section>
+      <h2>Payment Information</h2>
+      <form>
+        <fieldset>
+          <legend>Card Info</legend>
+          <label for="card-name">Card Name</label>
+          <input
+            type="text"
+            name="card-name"
+            id="card-name"
+            required
+            aria-required="true"
+          />
+          <label for="card-number">Card Number</label>
+          <input
+            type="number"
+            name="card-number"
+            id="card-number"
+            required
+            aria-required="true"
+          />
+          <label for="expiry-date">Expiration Date</label>
+          <input
+            type="text"
+            name="expiry-date"
+            id="expiry-date"
+            required
+            aria-required="true"
+          />
+          <label for="cvv">CVV</label
+          ><input
+            type="number"
+            name="cvv"
+            id="cvv"
+            required
+            aria-required="true"
+          />
+        </fieldset>
+        <button type="submit">Place Order</button>
+      </form>
+    </section>
+  </body>
+</html>
